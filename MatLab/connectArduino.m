@@ -38,7 +38,7 @@ function m_port = connectArduino(varargin)
         return
     end
 
-    for portnumber = 0:14   
+    for portnumber = 0:25
     
         portname = sysprefix + portnumber;
     
